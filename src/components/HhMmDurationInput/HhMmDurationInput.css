@@ -1,0 +1,7 @@
+.hhmm-duration-input {
+    border: 1px solid black ;
+    border-radius: 2px;
+    width: fit-content;
+    line-height: .7rem;
+    padding: 0 1px;
+}

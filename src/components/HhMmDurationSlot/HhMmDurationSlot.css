@@ -1,0 +1,9 @@
+.hhmm-duration-slot {
+     -webkit-appearance: none;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    width: 1rem;
+    text-align: center;
+    padding: 0;
+}
