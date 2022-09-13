@@ -67,7 +67,7 @@ export const HhMmDurationInput = ({ inputId }: { inputId?: string }) => {
                 resetToggleSlot={() => setToggleSlot(false)}
                 onArrowUp={() => setHours(prev => prev === 99 ? 0 : prev + 1)}
                 onArrowDown={() => setHours(prev => prev === 0 ? 99 : prev - 1)}
-                onMovingRight={async () => {
+                onMovingRight={() => {
                     setToggleSlot(false);
                     focusOnMinutesSlot();
                 }}
@@ -80,7 +80,7 @@ export const HhMmDurationInput = ({ inputId }: { inputId?: string }) => {
                 resetToggleSlot={() => setToggleSlot(false)}
                 onArrowUp={() => setMinutes(prev => prev === 59 ? 0 : prev + 1)}
                 onArrowDown={() => setMinutes(prev => prev === 0 ? 59 : prev - 1)}
-                onMovingLeft={async () => {
+                onMovingLeft={() => {
                     setToggleSlot(false);
                     focusOnHoursSlot();
                 }}
